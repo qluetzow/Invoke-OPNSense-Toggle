@@ -6,7 +6,7 @@ User interaction and interface with the OPNSense API to utilize automation rules
 
 ### Usage:
 * Run with CLI parameters:
-    - `opensense_rule_toggler.ps1 -opnsense_host 192.168.1.1 \`\
+    - `Invoke-OPNSense-Toggle.ps1 -opnsense_host 192.168.1.1 \`\
     `-uuid 9u2905r6m-fj4e-729f-3mz5-35w7s822sd530 \`\
     `-api_key tuQjYj7Px3WBsALnp2CuwjBW79SrkdNT5qsNszsaEs3xVKT5iEqr2b4f7GAVbRxSda2Z5q98FXFNLxHc \`\
     `-api_secret tuQjYj7Px3WBsALnp2CuwjBW79SrkdNT5qsNszsaEs3xVKT5iEqr2b4f7GAVbRxSda2Z5q98FXFNLxHc \`\
@@ -14,13 +14,13 @@ User interaction and interface with the OPNSense API to utilize automation rules
     `-version`
 
 
-* Run with interactive parameters: `opensense_rule_toggler.ps1`
-* Get version string: `opensense_rule_toggler.ps1 -version`
+* Run with interactive parameters: `Invoke-OPNSense-Toggle.ps1`
+* Get version string: `Invoke-OPNSense-Toggle.ps1 -version`
 
 
 ### Arguments:
 * opnsense_host
-    - IP address or FQDN or OPNSense.
+    - IP address or FQDN for OPNSense.
 * uuid
     - UUID of automation rule to be enabled/disabled.
 * api_key
