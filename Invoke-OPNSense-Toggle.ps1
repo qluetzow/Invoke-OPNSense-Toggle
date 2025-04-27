@@ -1,18 +1,18 @@
-# Invoke-OPNSense-Toggle (C) 2025 Quinn Luetzow
-# This file is part of Invoke-OPNSense-Toggle.
+# Invoke-OPNSenseRule (C) 2025 Quinn Luetzow
+# This file is part of Invoke-OPNSenseRule.
 
-# Invoke-OPNSense-Toggle is free software: you can
+# Invoke-OPNSenseRule is free software: you can
 # redistribute it and/or modify it under the terms of the GNU General
 # Public License as published by the Free Software Foundation, either
 # version 3 of the License, or (at your option) any later version.
 
-# Invoke-OPNSense-Toggle is distributed in the hope that
+# Invoke-OPNSenseRule is distributed in the hope that
 # it will be useful, but WITHOUT ANY WARRANTY; without even the implied
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See
 # the GNU General Public License for more details.
 
 # You should have received a copy of the GNU General Public License
-# along with Invoke-OPNSense-Toggle. If not, see
+# along with Invoke-OPNSenseRule. If not, see
 # <https://www.gnu.org/licenses/>.
 
 <#
@@ -246,7 +246,7 @@ if ($PSVersionTable.PSVersion -lt 7) {
     Exit 1
 }
 if ($version) {
-    Write-Host "Invoke-OPNSense-Toggle version " + $version_string
+    Write-Host "Invoke-OPNSenseRule version " + $version_string
     Exit 0
 }
 if ($enable -and $disable) {
